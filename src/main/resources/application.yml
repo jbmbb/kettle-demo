@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  ds-mysql:
+    jdbc-url: jdbc:mysql://localhost:3306/staff
+    username: xxlai
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  ds-post:
+    jdbc-url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 123456
+    driver-class-name: org.postgresql.Driver
+      
