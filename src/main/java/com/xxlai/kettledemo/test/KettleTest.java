@@ -20,10 +20,10 @@ import org.springframework.util.CollectionUtils;
 public class KettleTest {
 
 	public static void main(String[] args) {
-//		String fileName = "D:/eclipse.4.4.2/workspace/kettle-demo/src/main/resources/properties/task1.ktr";
+//		String fileName = "../kettle-demo/src/main/resources/properties/task1.ktr";
 //		runTransfer(null, fileName);
 		
-		String fileName = "D:/eclipse.4.4.2/workspace/kettle-demo/src/main/resources/properties/job1.kjb";
+		String fileName = "../kettle-demo/src/main/resources/properties/job1.kjb";
 		runJob(null, fileName);
 		
 		System.out.println("OK");
